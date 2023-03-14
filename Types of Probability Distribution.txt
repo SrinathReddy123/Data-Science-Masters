@@ -1,0 +1,49 @@
+Types of Probability Distribution:
+===============================
+ Probability Distributions are of various types. A prob. distri. can be of any particular type.
+ 
+ It may belong to Prob. densit. func. or Prob. mass function.  Based on this different types 
+  of probability distributions are present.
+  
+  1.Normal/Gaussian Distribution - 
+  It is a part of probability density function
+  most specifically belong to Probability density function.
+  Here the curve will be like Bell shaped curve, which is of symmetric in nature.
+  
+  Most of the data that exists in our universe, will follow Normal/Gaussian distribution.
+  
+  Mostly in any dataset, one or the features will follow Normal/Gaussian distribution.
+  
+  2. Bernoulli distribution:
+  
+   It is a part of probability mass function.
+   
+   In this, for any experiment we have only 2 outcomes(success and failure). So bernoulli 
+     experiment does follow discrete random variable.
+   collection of Bernoulli experiments is called Binomial experiment.
+   In Binomial experiment each outcome of any experiment can be classified as either success 
+     or failure.
+   A distribution in which we can classify 
+   
+   Most of our classification problems has data that follows Bernoulli distribution as it has only 2 outcomes.
+   we might have a feature that follows Bernoulli distribution.
+  3.Uniform distribution:
+
+
+  4.Log normal distribution :
+   It is part of prob density function.
+   Log normal distribution can be converted to Normal/Gaussian distribution.
+   
+   why Log normal distribution has to be converted into Normal/Gaussian distribution?
+    Because with respect to ML algorithms, some algorithms work really well with Normal/Gaussian distribution.
+   
+  5. Poisson distribution
+  It follows a prob. mass function rule.
+
+  6. Power law distribution:
+   It follows pdf(prob density function) . It is 80 20 percent rule. pareto principle rule.
+   
+  7.Binomial distribution:
+  It follows a prob. mass function rule. It means the data that is used in this distribution is discrete data.  
+  
+  

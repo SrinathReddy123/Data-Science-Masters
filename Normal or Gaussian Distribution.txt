@@ -1,0 +1,49 @@
+Normal/Gaussian Distribution:
+  It is an important and most observed distribution in nature.
+  
+ we have important formula called empirical formula about Normal/Gaussian distribution,which
+   will help us to make some assumptions, about specific dataset.
+   
+ For a symmetric distrbution, 50% of data will be on left side of mean(mue) and remaining 50%
+  of data will be on right side of mean(mue).
+  
+  If a given random variable follows Gaussian distrbution, then it will be of Bell shape.
+   Both sides are symmetric to each other and in middle of curve we will be having mean.
+   
+   If we go towards right, then we have mean+sigma(std. dev.) then mean+2*sigma
+     where sigma = standard deviation
+  If we go towards left, then we have mean-sigma(std. dev.) then mean-2*sigma.
+  
+Importance of Normal/Gaussian distrbution and assumptions that we can make from this:
+ =================
+  Empirical rule : 68-95-99.7
+  Empirical rule is also called as 3Sigma rule.
+
+  
+ when we have random variable that follows gaussian distribution(exact symmetric distr.), then 
+  within 1st std. dev. from mean(on both left and right side combined) we will have 68% of entire distribution of data.
+  within 2 std. dev. from mean(on both left and right side combined) we will have 95% of entire distribution of data.
+  
+  within 3 std. dev. from mean(on both left and right side combined) we will have 99.7% of entire distribution of data.
+  
+  
+  when we have random variable that follows gaussian distribution  then it follows the Empirical rule mentioned above.
+  
+  
+  How can we know if a random variable follows gaussian distribution or not??
+  -> Q-Q plot(Quantile Quantile plot) wll help us to know if a distrbution is gaussian or not.
+  
+  
+  
+  P((mue-sigma)<= x <= (mue+sigma)) = 68% -> This is in terms of probability.
+   -> Probability of a random variable to fall/lie between 1 standard deviation.
+   
+   
+   similarly for P((mue-(2*sigma))<= x <= (mue+(2*sigma)) )=95%  
+   similarly for P((mue-(3*sigma))<= x <= (mue+(3*sigma)) )=99.7%
+   
+   
+ Eg: Height and weight 
+    iris dataset( we have 4 features sepal length, petal length, sepal width and petal width)
+	 
+ From this we can also find the area under the curve.

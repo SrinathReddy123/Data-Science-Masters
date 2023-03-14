@@ -1,0 +1,78 @@
+
+
+Probability Distribution Function & Probability Density function
+===================================
+In most books it is there like Prob. distri. func. is same as prob. dens. func.
+
+Prob. distr. func. is a part of prob. dens. func.
+
+why do we use prob. dens. function??
+
+** -> probability density funtion is for continuous random variables. 
+ 
+ prob. dens. funct. -> It talks about distribution of continuous data.
+ -> It is specifically used for 
+ 
+ let's us consider heght of students:
+  for this we can create histogram.  we smoothen the histogram.
+  
+  on X-axis - we can have heights of students and on Y axis, we can have probabilities (like  
+    0.1,0.2, ...)
+	
+By using this distribution, we can derive some important information.
+ we want to find what is the probability that height is < 155cm.
+ prob. that random variable will take value whose height is < 155cm ??
+ 
+  -> we can find it by calculating the area under the curve. From the left extreme side what 
+   is the area under the curve.
+   Here probability will always lie between 0 and 1.
+   
+   
+  How the Prob. dens. func. curve is created??
+    We use Kernel density estimator.
+	
+Q. What is the difference between Probability density function and probability distribution function??
+ In probability distribution function, we have various types, where prob. dens. func. is 1 of the types. (we are specifically trying to create a curve which specifies the distribution 
+ of continuous data.)
+ 
+ probability distribution function also has probability mass function as one of it's type, here we see the distribution of a discrete random variable.
+ Eg: rolling a die - we know that outcome will be from one of the possible outcomes{1,2,3,4,5,6}
+ 
+ Here we can find the probability for what possible outcome i.e for {1,2,3,4,5,6}
+ Let X be the random variable that tells what is the number that will appear upon rolling die.
+  P(X=1)= ?, P(X=2)= ?, P(X=3)= ?, ...
+  
+  Here if we consider that die is fair, then each of the outcome is equally likely and so
+    P(X=1)=P(X=2)=P(X=3)=1/6.
+	
+	we can represent probabilities as bar chart and when we smoothen the chart and make it curve, then it becomes probability mass function.
+
+
+** probability mass function is for discrete random variables.	
+  P(X<=4)= Probability of random variable X taking a value <=4 = 
+           P(X=1)+ P(X=2)+ P(X=3)+ P(X=4)
+  For a fair die = 1/6 * 4 = 4/6.
+
+when we have discrete random variable, then we should use probability mass function to show the distribution of graph. 
+
+
+Cumulative distribution function.(CDF)
+===============================
+we are trying to do cumulative sum.(Adding every area with respect to every point till that 
+ point from the left).
+probabitity sum upto a certain point is called CDF.
+Probability till a particular point is known as CDF.
+
+CDF will always be increasing. (monotonically non-decreasing)
+
+-> we will be doing the cumulative sum of all the values with respect to the area under the curve. 
+
+
+** Sum of all the probabilities will always be "1".
+
+  
+  
+ 
+	
+	
+  

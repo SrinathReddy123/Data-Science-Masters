@@ -1,0 +1,46 @@
+
+
+Probability Density function and probability mass function:
+=====================================
+probability mass function:
+ ==============
+  Here the random variable is Discrete random variable.
+  PMF                                          CDF(Cumulative distribution function)
+Eg: rolling a die
+ {1,2,3,4,5,6}
+assume as fair die then each outcome is equally likely.
+ P(X=1)=P(X=2)=P(X=3)= P(X=4)=P(X=5)=P(X=6) = 1/6.
+                                               |we try to cumulatively add the probabilities 
+											     till the probability for that random value.
+                                                | P(X<=4)= P(X=1)+ P(X=2)+ P(X=3)+ P(X=4)=4/6
+												
+ Here on X-axis, we can have values that our    |  P(X=2) =2/6
+ random variable can take and on Y axis, we can have| P(X=3) =3/6
+ what is the probability that RV can take that value.|  P(X=5) = 5/6
+ here 1/6 for each value.                              | P(X=6) = 1(6/6)
+ 
+ 
+ 
+ P(X<=4) =  P(X=1)+ P(X=2)+ P(X=3)+ P(X=4)
+ CDF will helps us in finding such probabilities.
+ 
+ 
+ P(X<=6) =  P(X=1)+ P(X=2)+ P(X=3)+ P(X=4) + P(X=5)+ P(X=6)
+ 
+ when each and every outcome of a random variable is equally probable,(means having equal
+   probability) then it is called uniform distribution. 
+   
+   
+ Probability Density function 
+========================
+It is applicable for continuous random variables.
+
+let us consider, on x-axis we have height and on Y axis, we have probability.
+Now if we have the curve, and for RV taking a value, if probability at that value on Y axis is something, then that is not the exact required probability.
+
+From the mean, if the curve is similar on both sides then it is symmetric curve.
+So from mean,the left part of it will have 50% of entire distribution and on the right side of
+ curve we have 50% of distribution.
+ 
+ 
+ At any point we find the gradient, gradient basically means the slope(derivative)

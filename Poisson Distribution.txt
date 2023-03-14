@@ -1,0 +1,39 @@
+Poisson Distribution:
+===============
+  what exactly is poisson distribution for??
+   It is for discrete distribution.
+   
+   when we have a Random variable that is following poisson distribution then it is discrete 
+     random variable.
+	 
+	 
+It describes the number of events occuring in a fixed time interval.
+Eg: no. of people visiting hospital every hour.
+  no. of people visiting bank every hour.
+  no. of people visiting airport every hour.
+  
+  For graph, we can have hour number ranging over X axis, and no.of people visiting in that hour can range over Y axis.
+  
+  "lambda" is an important parameter of poisson distribution.
+   lambda = 3 -> it talks about expected number of events to occur at every time interval.
+   
+   lambda helps us to create PMF with this probability.
+   
+   Let us assume lambda=3(mean=3)
+   P(X=5) = In the 5th hour what is the probability that an event will occur.
+     = (e^-lambda * (lambda)^x) / x!  = (e^-3 * 3^5)/5! = 0.101 (This will be probability on Y axis)
+	 
+	 
+	 similarly we can compute P(X=4), P(X=3)
+	 
+	 
+Mean and Variance for Poisson distribution:
+==================
+ Mean = E(X) Expectation of X = mue =lambda * t.
+   lambda = expected number of events to occur every hour.  t= time interval
+
+ variance = mue = lambda * t
+
+so mean and variance is given by same thing in poisson distribution.
+	 
+	 
