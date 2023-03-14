@@ -1,0 +1,60 @@
+Binomial distribution:
+======================
+There is a relationship between Bernoulli and Binomial distribution.
+
+In probability theory and Statistics, the Binomial distribution with parameters n and p is the
+ discrete probability distribution of the number of successes in a sequence of "n" random 
+ independent experiments, each asking a yes-no question and each with its Boolean valued outcome: succes(with probability "p") or failure( with probability=1-p).
+ 
+  n - Number of times the experiment is repeated.
+  p - probability of success.
+  q - probability of failure. q = 1-p (because there are only 2 possible outcomes 0 and 1)
+ 
+ 
+ A single success/failure experiment is also called a Beroulli trial/experiment and a sequence 
+  of outcomes is called Bernoulli process for a single trial i.e n=1, the binomial distribution
+  is a Bernoulli distribution.
+  
+  Here each outcome will be independent of every other outcome.
+  Eg: when 2 coins are tossed at a time, the probability of getting head on 2 coin is independent of what happened with 1st coin.
+  
+  If the probability of happening of 1 outcome is not dependent on any outcomes of the same type, then it is called independent 
+  
+  collection Of Bernoulli experiments is called Binomial experiment.
+  Eg: when 1 Bernoulli experiment is repeated "n" number of times then it is called Binomial 
+   distribution.
+  
+  Eg: Tossing many coins at same time.
+   Tossing a coin for 10 times.
+
+
+1st               2nd         3rd    . .......  
+P(Tail)=p      P(Tail)=p    P(Tail)=p
+P(Head)=1-p   P(Head)=1-p  P(Head)=1-p
+
+ Here above each experiment can be considered as Bernoulli experiment.
+  When we combine all the experiments together then it is called Binomial experiment.
+  
+  
+  
+  
+  n = {0,1,2,3,4,.............}  -> number of experiments
+  p -> 0,1   "p" value can lie between 0 and 1.  success or probability for each trial.
+  q = 1-p    "q" value can lie between 0 and 1.  probability of failure for each trial.
+  
+  
+  PMF of Binomial distribution:  nck * p^k * q^(n-k)
+   k ={0,1,2,3,....n} -> number of successes.
+   
+     ncr * p^r * q^(n-r)
+  where ncr is "n" choose "r" = ncr = n!/(n-r)!*r!
+
+
+Mean of binomial distribution:
+=============
+  mean = np, where "n" is number of experiments and "p" is probability of success. 
+
+Variance and Standard deviation:
+=================
+  var. = npq
+  std. dev. = npq^1/2  
