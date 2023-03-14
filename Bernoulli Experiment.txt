@@ -1,0 +1,67 @@
+
+Bernoulli Distribution:
+=======================
+In probability theory and Statistics, the Bernoulli distribution named after Swiss Mathematician Jacob Bernoulli, is the probability distribution of a random variable, which takes the value 1 with probability "p" and the value with value q=1-p.
+
+
+Less formally, it can be thought of as a model for the set of possible outcomes of any single 
+ experiment, that asks a yes-no question. Such questions lead to outcomes that are boolean valued: a single bit whose value is success/yes/true/one with probability p and failure/no/
+ false/zero with probability q.
+ 
+ Binary outcomes.
+ With respect to Bernoulli distribution, outcome is binary.
+ Eg: Tossing a fair coin. {0,1} 
+  2. whether a person will pass/fail in an exam. 
+ Let H be the event of getting Head, then P(Head) = P(Tail) =  1/2.
+ Here P(Tail) = 1 - P(Head). 
+ Here we can consider getting head as success(1) and getting Tail as failure(0).
+ 
+ 
+ Usually in Bernoulli distribution, we will be using the symbols p and q for denoting success 
+  and failure of experiment.
+  
+  
+  P(Success) + P(Failure) = 1.
+  
+  PDF" is created for continuous random variable(can take infinite number of values) and PMF is created for discrete random variable.(we have fixed/finite number of values that random variable can take)
+  
+  
+**   p(x=k) = p^k * (1-p)^(1-k) -> General Bernoulli equation for PMF.
+  
+  p(x=0) = p^0 * (1-p)^1 = (1-p)
+  
+  p(x=1) = p^1 * (1-p)^0 = p.
+  
+Q. For Bernoulli distribution how do we calculate the mean,variance and standard variance ??
+ ->
+  E(K) =summation over "i" from 1 to k    k*p(k).
+  In Bernoulli distribution, K will be either 0 or 1.
+  
+  
+  Let p(k=1) = 0.6 then p(k=0) = 1 - 0.6 = 0.4
+  
+  
+  = 1*0.6 + 0*0.4 = 0.6 = p.
+  
+  So when we try to calculate the mean of Bernoulli distribution then mean will always be "p".
+  
+  Median of Bernoulli distribution:
+  =====================
+  
+  Median ={ 0 if p<1/2
+         ={ 0 or 1 if p=1/2
+		 ={ 1 if p>1/2
+		 
+		 
+  Variance & Standard deviation:
+ ================
+  var. = p*(1-p) = pq
+  Std. dev = (pq)^1/2
+
+
+  Simplified way of PMF:
+=======================
+  PMF = { q = 1-p,  if k=0
+      = { p,        if k=1
+  
+ 
