@@ -1,0 +1,84 @@
+Standard Normal Distribution:
+=================
+Normal/Gaussian distribution with mean(mue)=0 and standard deviation=1 is called Standard Normal distribution.
+
+Here we learn about Z-score, with the help of z-score we can identify any value how much standard deviation is it away from the mean.
+
+Let's consider a random variable with values {1,2,3,4,5} and following normal distribution
+ with mean=3 and std. dev. = 1.414
+
+In general Normal/Gaussian distribution can have any mean and any standard deviation.
+
+
+Now assume that we want to convert this distribution into other distribution where mean=0 and 
+  std. dev. = 1. then such distribution is called standard normal distribution.
+  
+  How does this conversion can be done??
+  -> w euse z-score formula.
+  
+  z=(x-mue)/sigma   mue=mean of that feature and sigma=standard deviation of feature.
+  
+  For simplicity , let's assume std dev. = 1.
+  
+  for 1 =  1-3/1 = -2.
+  for 2 =  2-3/1 = -1.
+  for 3 = 3-3/1 = 0.
+  for 4 = 4-3/1 = 1.
+  for 5 = 5-3/1 = 2.
+   
+   
+   so new distribution have values{-2,-1,0,1,2}and this will be normal distribution. 
+     Here mean = 0 and std.dev. =1
+	 
+	 
+A random variable belongs to standard normal distribution if it's mean=0 and std. dev. =1.
+
+
+why z-score is important??
+-> Assume we have curve(for a distribution) we have mean=4 and std.dev=1	 
+	 
+Q. How many standard deviation 4.25 is away from mean??
+ here "x"=4.25	  z-score = 4.25 - 4/1 = 0.25
+It means 4.25 is 0.25 std. dev. away from the mean.
+
+we can also find the area between 4 and 4.25 by using z-table 
+	 
+2.  How many standard deviation 2.5 is away from mean??  
+here "x"=2.5	  z-score = 2.5 - 4/1 = -1.5
+
+It means 4.25 is -1.5 std. dev. away from the mean.
+
+
+Eg: Assume we have a dataset, 
+Age(years)    weight(kg)   Height(cm)  salary(rupees)
+24      70       175     20k
+24      65       170     30k
+25      69       165     27k
+26      75       187     25k
+27      60       175     35k
+
+
+here for all the features units will be different, 
+ when we create a Machine learning model, the 1st rule is we try to bring all the features in same unit scale.
+
+If we are able to bring all the features in the same value range, there are many algorithms 
+ like clustering algorithms, Linear regression these models require all the values to be in 
+ same unit, so that ML algorithms will be able to optimize themselves in a better way and so 
+ will give better performance.
+ 
+ In clustering algorithms, we try to find the distance.
+
+we convert all the features using a technique called Standardization.(Apply z-score formula on
+ each and every feature.)
+ 
+ we can bring efficiency and performance in model, in a better way.
+ 
+ 
+ There is other technique called Min max normalization. 
+   x = (x-min)/(max-min) -> for a feature for all the values of that feature we can apply this.
+   
+   min - minimum value of the feature
+   max - maximum value of the feature
+   
+   
+    

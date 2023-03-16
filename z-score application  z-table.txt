@@ -1,0 +1,85 @@
+z-score application & z-table:
+=========================
+problem statement on z-score:
+  Let x be a random variable with x={1,2,3,4,5,6,7} that follows normal distribution with mean=4 and std. dev.=1
+ 
+Q. what % of scores fall above 4.25??
+  Here we are trying to find the area under the curve, i.e after 4.25 towards the right side.
+
+Total area=1. Gaussian distribution has symmetric curve (so right to mean we have 50% of data
+ and left to mean we have 50% of data)
+So here required answer will be subset of data that is to right of mean.
+
+1. we have to compute z-score.
+   "x"=4.25  mue=4, sigma=1
+   z=(x-mue)/sigma  = (4.25-4)/1 = 0.25
+
+ It means 4.25 is 0.25 Std. dev. away from the mean towards the right. 
+  0.25 -> area = 0.59871 (from z-table)
+  
+  From left most side, the area till 4.25 is 0.59871, so the area under the curve(>4.25)=0.4013 
+
+  % of distribution of data above 4.25 is 0.4013
+  
+2. In India the average IQ is 100, with standard deviation of 15. what is the % of population
+  would you expect to have an IQ < 85??
+ 
+ mean=100   std. dev. = 15
+ bell curve can be prepared if we have mean and standard deviation.
+    70             85         100       115          130         145
+ 2std. dev    1std. dev              1std. dev    2std. dev   3std. dev
+
+ calculate z-score = 85-100/15 = -1
+  85 lies in 1 std.dev. from left away from mean.
+  
+  Now we need to find the area under the curve 85 from the starting of left.
+
+  For -1.0 -> in z-table, we get area as 0.15886 = 15.86% population will have IQ < 85.
+  So answer= 0.15886
+  
+  what % of people will have IQ>=85??
+    Then it is simply 1-(IQ<85) = 1-0.15866 = 0.84134
+	
+	
+	So in this way z-table will help us in finding the area under the curve upon after finding the z-score from mean and standard deviation. 
+	what % of area lies within given variable value can also be found from z-score.
+	
+	3. Find 75>=IQ<=100.
+	
+	 when x=75 then z-score = 75-100/15 = -25/15 = -5/3 = -1.67 ->from z-table let value be t2.
+	   from z-table value = 0.0485 
+	 
+	 when x=100, then z-score = 100-100/15 = 0  ->from z-table let value be t1 = 0.5
+	 
+	 to obtain the area under 75>=IQ<=100 ->required area = t1-t2.
+	 Because t1 gives area till IQ 100 and t2 gives area till IQ 75.
+	 
+	 so area under the curve 75<=IQ<=100 will be (t1-t2) = (0.5 - 0.0485) = 0.4515
+	 
+	 so 45.15% of people will have IQ between 75 and 100.
+      
+	   
+===========  
+How do we find the area?? 
+ For that we specifically use z-table.
+
+when we want to find out what is the percentage of distribution, how much area(i.e what is the area under the curve) based on a specific standard deviation then from z-table we can find the required data. 
+  
+  In figure, we have 2 types of z-table, 1. Negative z-table  2. Positive z-table
+  
+  let z-score is negative(-2.5) then z-table will help us in finding the area under the curve 
+    from left most side till that point(-2.5).
+	
+	To find the area of the remaining curve, it can simply be found by  1-(area).
+	Because total area under the curve = 1. 
+	
+	In Positive z-table, whenever z is positive, let it be(2.5( then we get area under the curve starting from the left most side of curve till the point.
+	
+	To compute the area under(>2.5) -> canbe obtained by 1-(area till 2.5)
+	
+   
+  
+  When we have mean and std. dev then we can define the entire curve(Gaussian)
+  we will undertsand about z-table
+  
+  why z-table is specifically used?

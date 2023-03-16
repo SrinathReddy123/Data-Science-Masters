@@ -1,0 +1,71 @@
+Uniform distribution:
+===================
+we have 2 types:
+ 1. continuous uniform distribution - here we create a pdf(probability density function)
+ 2. discrete uniform distribution - here we create a pdf(probability mass function)
+ 
+ 
+ 1. continuous uniform distribution - has a continuous random variable.
+ ===============
+ In probability theory and Statistics, the continuous uniform distribution or rectangular distribution is a family of symmetric probability distribution.
+ 
+ - The distribution describes an experiment, where there is an arbitrary outcome that lies between certain bounds.
+ - The bounds are defined by the parameters a and b, which are maximum and minimum values.
+  The interval can either be closed(eg:[a,b]) or opened(eg:(a,b))
+  
+
+  
+In this experiment, we have outcomes thatb lie between certain bounds.
+Notation: U(a,b)
+parameters: a,b where -infinity < a < b < infinity.  where "a" being minimum and "b" being the maximum.
+
+pdf : = { 1/(b-a)   for x belongs to [a,b]
+      = { 0         otherwise
+	  
+cdf : = { 0  for x < a	
+        { (x-a)/(b-a)   for x belongs to [a,b]
+        { 1 	   for x>b
+
+Mean = (a+b)/2 = Median
+Variance = 1/12 * (b-a)^2		
+	  
+Eg : The no. of candies sold daily at a shop is uniformly distributed with a minimum of 10 and maximum of 40.
+1. What is the probability of daily sales to fall between 15 and 30?
+ Here a=10 and b=40. 	  1/(b-a) = 1/30.
+
+we need to find area under the curve 15 and 30.
+
+P(15<=x<=30) = area of rectangle = length * breadth = (30-15) * 1/30 = 15/30 = 0.5
+
+2.What is the probability of daily sales > 20.
+  p(x>=20) = area = length * breadth = (40-20) * 1/30 = 2/3 =  0.667
+  
+  
+2. discrete uniform distribution - here it does have discrete random variable
+===================
+In probability theory and Statistics, the discrete uniform distribution	is a symmetric probability distribution where in a finite number of values are equally likely to be observed.
+every one of n values has equal probability 1/n.
+
+Another way of saying discrete uniform distribution would be a known finite number of outcomes
+ equally likely to happen.
+ 
+Eg: Rolling a fair die, then P(x=1)= P(x=2)=... P(x=6)= 1/6
+Here for this we can consider a=1 and b=6 and every possible value between a and b including both of them will take equal probability = 1/n.
+
+where "n" is the number of numbers between "a" and "b"(including "a" and "b")
+ n = (b-a)+1
+ 
+ Notations:
+ ===========
+ U(a,b)
+ parameters: a,b where b>a
+ PMF = 1/n
+ 
+ Mean = (a+b)/2
+ 
+ CDF :
+   
+  
+ 
+  
+  
