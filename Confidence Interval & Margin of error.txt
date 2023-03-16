@@ -1,0 +1,63 @@
+Confidence Interval & Margin of error:
+=================================
+ Till now with respect to Confidence Interval, we have solved problems with the help of t-stats
+  and z-stats.
+  
+Let's say if CI is 95% and if it is 2 tailed test, then we create a curve with z-scores where 
+  acceptance area is 95% and rejecting area is 2.5% on either sides.
+  
+  From z-test or p-value if it lies in the region, then we will accept Null hypothesis, if it 
+   comes in any extreme ends then we reject Null hypothesis.
+   
+Initially when we are trying to solve z-stats or t-stats, then we had sample mean and we tried to make conclusion about population mean.
+
+point estimate:
+==============
+ "x"bar is the point estimate, to probably estimate the population mean.
+ 
+let's say "x"bar=2.5 and mean=mue= 3 
+ For some samples, sample mean ("x"bar can be > 3)
+ 
+In both the cases, there will be a difference and that's the problem of using point estimate.
+
+Hence we define some range of confidence interval. 
+ ler's say our point estimate lies between CI 2 to 4. Then we can represent the estimation of population parameter. 
+
+This range that we consider is called Confidence Interval.
+ In this we define some intervals with respect to some confidence level. For specifying CI 
+ we use a formula :
+   point estimate+_ margin of error.
+
+point estimate can be less or greater than or equal to the population mean.
+
+How do we calculate Margin of error?
+=============
+ we use "z alpha/2"   
+ 
+ For z-test, = "x"bar +_ ("z alpha/2" * (sigma/n^1/2))
+ 
+ For t-test =  "x"bar +_ ("t alpha/2" * (sigma/n^1/2))
+  we need to calculate dof(degree of freedom)
+  
+Eg: On the verbal section of CAT exam is the std. dev. is known to be 100. A sample of 30 tests takers has a mean of 520. construct 95% CI about the mean?
+
+alpha = 0.05 => so alpha/2 = 0.025
+
+when we say alpha/2, we are considering it as 2 tailed test. 
+
+so we have curve with 95% area of acceptance region, and 2.5% on either sides of 95% area. 
+To find the area on right extreme(2.5%) we can find area from left most extreme(till +z-score at right side of 95%) .
+
+1- (area from left most extreme(till +z-score at right side of 95%) = we get area of right extreme 2.5%
+
+1-0.025 = 0.9750 -> so with respect to this, the area under the curve 0.9750 is +1.96 which is z-score(how many std. dev. is mean away from). The other side, it will be -1.96 the z-score for this at left extreme of 95% area.
+
+Lower CI =  520 - (1.96)*(100/(25^1/2)) = 480.8
+Right CI =  520 + (1.96)*(100/(25^1/2)) = 559.2
+
+
+So our 95% CI lies between 480.8 and 559.2 these 2 values.
+
+we are 95% confidence that CAT exam avg score will lie between 480.8 and 559.2
+
+I am 95% confidence about the mean CAT score is between 480.8 and 559.2

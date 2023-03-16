@@ -1,0 +1,8 @@
+T-test and Z-test:
+==================
+  when to use T-test vs Z-test:
+    Do you know the population standard deviation(sigma) from problem statement we have.
+If Yes -> Is the sample size above 30?  ->  Yes then use z-test.
+                                        -> No, use the T-test.
+
+ No -> use the T-test.	           

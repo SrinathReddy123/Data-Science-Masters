@@ -1,0 +1,15 @@
+Type 1 & Type 2 Errors:
+==============
+ Reality: Null hypothesis is True, or Null hypothesis is false
+ Decision : Null hypothesis is True, or Null hypothesis is false
+
+Outcome 1: we reject the Null hypothesis, when in reality it is false -> it is good scenario.
+          correct scenario.
+   
+Outcome 2: we reject the Null hypothesis, when in reality it is true  -> this is an error.
+  This error is called Type1 error.
+  
+Outcome 3: we retain the Null hypothesis, when in reality it is false -> this is an error.
+  This error is called Type2 error.
+  
+Outcome 4: we retain the Null hypothesis, when in reality it is true -> this is acceptable. 
