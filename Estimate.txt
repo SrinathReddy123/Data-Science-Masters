@@ -1,0 +1,41 @@
+Estimate:
+=============
+ Till now whatever we have learnt is all about Descriptive statistics.(Different types of distribution)
+ 
+ It is a specified observed numerical value used to estimate an unknown population parameter.
+ 
+ In Inferential statistics, we make/draw conclusions from sample data which actually holds for 
+   complete population.
+   
+ Types of Estimate:
+ ===============
+1.Point estimate(single numerical value used to estimate an unknown population parameter
+  Eg: sample mean is a point estimate of a population 
+  
+  let us consider a population whose mean is mue, and we have a sample(subset) for this population, where we try to find point estimate and we try to make conclusion for this population parameter(mean).
+  
+  
+  
+  Now the sample mean is called point estimate. so it becomes a point estimate to draw some 
+   conclusions on population mean.
+   
+   point estimate can have some margin of error, where it can be >(greater) than observed 
+    population mean. So it is always better to define intervals.
+	
+	So we have 2nd type of estimate.
+  
+2.Interval estimate:
+  Range of values used to estimate the unknown population parameter.
+  Here we have range of values instead of just a point estimate we can have some margin error
+   between some maximum and minimum value.
+   
+  So here this range is called Confidence Interval. 
+  
+  we are defining confidence interval, this is called Interval estimate for sample mean.
+  This(defining confidence interval) is done to estimate population parameter.
+  
+  here we might don't know population mean(mue), but we try to estimate population mean(mue)
+   through interval estimate.
+   
+ 
+ 
