@@ -1,0 +1,30 @@
+Student T distribution:
+==============
+In Z stats. when we perform any analysis using z-score, we require pop.std. dev. (sigma) but 
+  it is already known.
+  
+  pop.std. dev. is very difficult to get calculated, to get assumed also because we don't have
+   entire population data
+   
+Q. How do we perform any analysis when we don't know the population std. deviation??
+ ->  For such instances we use Student T distribution
+ 
+ actual z-score = ("x" bar - mue(population mean))/((sigma)/(n^1/2)) 
+   here "x" bar -> sample mean     sigma -> population std. dev.
+   
+   t-score = ("x" bar - mue(population mean))/(sample std. dev./(n^1/2))
+    -> we use sample std. dev. instead of pop. std. dev.
+	
+when using z-stats, we use z-table to find the area under the curve.
+
+In student t-table, we will be using "t-table"	
+ In t-table, there is 1 more parameter, called Degree of freedom 
+  dof = n-1
+  
+  
+ Let us consider there r 3 people in room, with 3 chairs and select 1 of them, then for 2nd 
+   person there r 2 choices, then for 3rd person there is only 1 choice.
+   
+  So here dof = 3-1 = 2
+
+we can call this test as t-test or student t-test.  

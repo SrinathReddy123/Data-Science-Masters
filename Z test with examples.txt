@@ -1,0 +1,21 @@
+Z test with examples:
+====================
+Here we learn different statistaical analysis and doing hypothesis testing:
+ -> This will be important when we take a problem statement and perform different types of 
+  hypothesis testing.
+  
+ Types of Hypothesis testing:
+==================
+1. z-test
+2. t-test
+3. chi-square test 
+4. anova test
+
+Bith z-test and t-test are specifically related to data dealing with average like sample average and population average.
+
+chi-square test is used for doing statistical analysis on categorical data.
+anova test is for variance of the data.
+
+Here we try to estimate population parameter(unknown), with sample data can we come up with 
+ conclusion regarding population data.
+ 

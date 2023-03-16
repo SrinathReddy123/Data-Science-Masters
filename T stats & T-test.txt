@@ -1,0 +1,70 @@
+when to use z-test:
+===========
+  when we have pop. std.dev.(sigma) and sample size(n>=30) then we have to use z-test.
+  
+ But what if we don't have pop. std.dev. as sometimes we might not have complete data, we just can have subset of data.
+
+when pop. std. dev. is not given, then we can use T-test. 
+
+
+T-stats & T-test:
+=================
+1. In the population, the avg IQ is 100. A team of researchers want to test a new application to see if it is either a + or - effect on intelligence or no effect at all. A sample of 30 participants who have taken the medication has a mean of 140 with std. dev. of 20 Did the medication affect IQ??
+
+
+
+Here IQ can increase or decrease, so it becomes a 2 tailed test.
+
+CI = conf. int. = 95%   so alpha=0.05
+
+we should be doing analysis on this sample data to find and conclude whether the intelligence has increased or not..
+
+Ans : mue = pop. mean=100  n=sample size=30 
+  sample mean( "x" bar=140)     sample std. dev. = 20
+ Here sigma(population std. dev.) is not given. So we have to use T-test.
+
+Null hypothesis (what is the basic assumption in the question):
+ H0 = mue = mean = 100 data that is already mentioned in question.
+ 
+Alternate hypothesis : H1 (what is that we are testing for)
+  mue!=100, we might get avg. IQ(mue) <100 0r > 100.  Hence it is 2-tailed test.
+  
+  
+ alpha = 0.05
+
+dof = degree of freedom -> with the help of this only we can check for area in t-table.
+  = n-1 = 30-1 = 29
+
+Decision rule(based on visualization curve): 
+  we have 95% of area,(because we want 95% CI) and remaining 5% area on either sides of 95% area.(2.5% on each side) as the curve is symmetric curve.
+  
+  
+Now we need to find z-score by using t-table.
+ For 2 tailed test, with alpha=0.05, along the rows in table we can see dof, go over dof=29
+ we get "2.045"
+ 
+ so z-score=2.045(It means how many standard deviations it is away from)
+ 
+ So the z-scores are "-2.045 and +2.045".
+ 
+ If our score for t-test is < -2.045 or > +2.045 then we reject the null hypothesis or else we accept the null hypothesis.
+ 
+ 1. calculate test statistic.
+ 
+   t-score = ("x" bar - mue(population mean))/(sample std. dev./(n^1/2))
+   =(140-100)/(20/(30^1/2)) = 10.96 
+   
+   "t=10.96"
+   
+   ====
+  since t-test value > +2.045, the areas which are on either sides of 95% are rejection areas
+   the 95% area(of CI) is the acceptance area for Null hypothesis.
+   
+ So here we have to reject the null hypothesis.
+
+conclusion: 
+ Medication used has affected the IQ and IQ is increased as 10.96 is on right side of mue=10.
+
+Medication has increased the IQ.
+
+This example is "1 sample t-test". 

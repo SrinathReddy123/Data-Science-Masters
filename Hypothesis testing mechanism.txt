@@ -1,0 +1,38 @@
+Hypothesis testing mechanism:
+====================
+ This is a part of inferential statistics, the main purpose of it is to come up with conclusions, from a sample data about a unknown population parameter.
+ 
+ we make conclusions about some unknown parameter, it can be mean,variance,std. dev. 
+
+How do we come up with some conclusions/inferences??
+-> For this we use hypothesis testing.
+
+How hypothesis testing and it's mechanism happens?
+-> Hypothesis testing mechanism: (what are the steps involved):
+ 1. we need to write our Null hypothesis, denoted by H0.(The person is not guilty)
+   Null hypothesis has the assumption you are beginning with.
+   
+ 2. We should define our Alternate hypothesis(H1):(The person is guilty)
+  It contradicts our Null hypothesis. Alternate hypothesis is reverse of Null hypothesis.
+  
+ 3. Here we perform some kinds of experiments, (statistical analysis)
+    There are different types of statistical analysis, we do statistical analysis to find if
+	  null hypothesis should be accepted or rejected.
+	  
+  here we collect proofs,(DNA,Fingerprint test,)
+  
+ 4. From the statistical analysis, we can judge/conclude whether to accept the Null hypothesis or to reject it.
+  
+  Eg: A person has made crime,and taken to court then  person is not guilty untill he is proved that he commited mistake.
+  
+  
+  
+  Q. Colleges at distr. A states it's pass percentage of students are 85%.A new colllege is opened in the distr. and it was found that a sample of 100 students have pass % of 90% with 
+  a standard deviation of 4%?
+  
+  Does this college have a different pass %?
+  
+  Define Null hypothesis, it says H0 = mean = mue = 85%
+   Alternate hypothesis = H1 = mean = mue != 85%
+   
+   Here we need to understand 2 values "p" value and significance value.

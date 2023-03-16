@@ -1,0 +1,77 @@
+P Value:
+======
+P value is a number, calculated from a statistical test, that describes how likely you are to 
+ have found a particular set of observations, if the null hypothesis were true. P values are 
+ used in hypothesis testing, to help decide whether to reject the null hypothesis.
+ 
+ It helps us to make conclusions about population data.
+ 
+ Eg:In space bar, we mostly touch at middle of key, we rarely touch at the bottom edges of key
+ 
+ So here the distribution is also Normal/Gaussian.
+ Assume at some point on key, we have "p" value of 0.2 what does that mean?
+ -> It means out of 100 touches in space bar, we touch around 20 times in that particular region.
+ 
+ "p" value talks about the probability, of a specific outcome in a specific region.
+ Assume at center, we have "p" value as 0.8 
+ 
+ 
+ Eg of hypothesis testing:
+  we define null hypothesis, then alternate hypothesis and then do statistical analysis.
+  The outcome of statistical test is "p" value.
+  
+  Assume we want to do hypothesis testing on a coin to find out whether it is fair or not.
+  let us consider the P(H)=P(T)=0.5
+  
+  so here if we toss a coin for many times, then through bernoulli distribution 50% of times,
+   we get Tail and 50% of times head will come.
+  So we can say the coin is fair.
+
+
+ case 2: Let us consider P(H)=0.6 and P(T)=0.4
+          This might happen 
+ case 3: Let us consider P(H)=0.7 and P(T)=0.3
+        Now this is unacceptable, now we can confirm this experiment through hypothesis testing
+		
+	1.Define null hypothesis(H0) = coin is fair
+  	2.Alternate hypothesis : (H1) = coin is not fair.
+	3. the experiment that we are going to perform.
+	
+ we toss the coin for 100 times. we try to plot graph, where on x axis, we have number of times heads appeared and on Y axis we have what is the probability of it.
+ 
+ Now if mean is around 50, then it means coin is fair.
+ 
+ assume for 100 tosses, we got 70 times head and 30 times tail
+ 
+ Here let's define a confidence interval, let it be from 30 to 70(CI range)
+  what should be the range for confidence interval??
+  -> domain expert will be used over here, here if we are tossing the coin and if it is between 30 and 70, then we consider our coin as fair.
+
+ Now if the number of heads that we get is out of confidence interval, i.e either < 30 or > 70. Then it means the coin is not fair.
+
+ How do we define the confidence interval??
+ -> An important parameter called significance value(alpha) let alpha=0.05
+
+ CI =  1 - 0.05 = 0.95
+ 
+Q. who will set the significance value and how isit related to "P" value?
+  significance value is decided by domain experts, based on problem statement this value will 
+    differ.
+	
+	So the area between 30 and 70 is of 95% confidence interval and the 5% area is equally distributed on left of 30 and right of 70.
+	
+	Now let's say we get "p" value. "p" value is computed from this statistical experiment.
+	
+	
+-> To calculate "p" value, we have tests like z-test, t-test,
+If "p" value < significance value at left side or "p" value > significance value at right side, then we have to reject null hypothesis. So these 2 areas are rejection areas for null
+hypothesis.  
+
+ if "p" value < significance value -> reject null hypothesis so alternate hypothesis will be 
+    accepted here.
+	(here it means, our value is coming outside of confidence interval)
+	
+ else we fail to reject null hypothesis -> so null hypothesis
+ 
+ 
+ 95% CI means with respect to any experiment that we perform if it is coming within the region, then we accept the null hypothesis. 
